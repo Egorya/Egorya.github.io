@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Zen Dots', cursive;
+	outline: none;
+}
+body, html
+{
+	width: 100%;
+	height: 100%;
+}
+ body {
+ 	background-color: #cccccc;
+ 	font-family: 'Source Code Pro', monospace;
+ }
+ #top
+ {
+ 	width: 100%;
+ 	background-image: url(../images/forest.jpg);
+ 	background-blend-mode: multiply;
+ 	background-color: #333333;
+ 	background-size: cover;
+ 	text-align: center;
+ 	color: #000000;
+ 	font-size:  3em;
+ 	height: 100%;
+ }
+ #top h1
+ {
+ 	padding-top: 20%;
+ 	color: #ffffff;
+ }
+ #top h5
+ {
+ 	color: #66ff66;
+ }
+ #top h3
+ {
+ 	color: #ffffff;
+ }
+ #uno
+ {
+ 	width: 100%;
+ 	background-image: url(../images/space.jpg);
+ 	background-size: cover;
+ 	color: #000;
+ 	font-size:  2em;
+ 	height: 50%;
+ 	padding-top: 7%;
+ }
+ #uno h4
+ {
+ 	text-align: center;
+	margin-right: 10%;
+	margin-left: 55%;
+ 	color: #ffffff;
+ }
+ #uno img
+ {
+ 	width: 30%;
+ 	height: 100%;
+ 	color: #333333;
+ 	float: left;
+ 	margin-left: 15%;
+ 	margin-right: 10%;
+ }
+ #uno p
+ {
+ 	font-size: 0.8em;
+ 	text-align: justify;
+ 	margin-right: 10%;
+	margin-left: 55%;
+ 	color: #ffffff;
+ }
+ #bigfoot 
+ {
+	width: 100%;
+	background-size: cover;
+	background-image: url(../images/whiteforest.jpg);
+	color: #000;
+	font-size:  2em;
+	height: 50%;
+	padding-top: 7%;
+ }
+ #bigfoot img
+ {
+	width: 30%;
+	height: 100%;
+	color: #333333;
+	float: left;
+	margin-left: 15%;
+	margin-right: 10%;
+ }
+ #bigfoot h4
+ {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 55%;
+ 	color: #000000;
+ }
+ #bigfoot p
+ {
+	font-size: 0.8em;
+	text-align: justify;
+	margin-right: 10%;
+	margin-left: 55%;
+	color: #000000;
+ }
+ #kraken 
+ {
+	width: 100%;
+	background-size: cover;
+	background-image: url(../images/water2.png);
+	color: rgb(255, 255, 255);
+	font-size:  2em;
+	height: 50%;
+	padding-top: 7%;
+ }
+ #kraken img
+ {
+	width: 30%;
+	height: 100%;
+	color: #333333;
+	float: left;
+	margin-left: 15%;
+	margin-right: 10%;
+ }
+ #kraken h4
+ {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 55%;
+ 	color: #000000;
+ }
+ #kraken p
+ {
+	font-size: 0.8em;
+	text-align: justify;
+	margin-right: 10%;
+	margin-left: 55%;
+	color: #000000;
+ }
+ #author 
+ {
+	width: 100%;
+	background-size: cover;
+	color: #000;
+	font-size:  1.5em;
+	height: 50%;
+	padding-top: 7%;
+ }
+ #author img
+ {
+	width: 10%;
+	height: 40%;
+	color: #333333;
+	float: right;
+	margin-left: 1%;
+	margin-right: 5%;
+ }
+ #author h6
+ {
+	text-align: left;
+	margin-right: 10%;
+	margin-left: 55%;
+	padding-top: 3%;
+ 	color: #ffffff;
+ }
+ #author p
+ {
+	font-size: 0.5em;
+	text-align: justify;
+	margin-right: 15%;
+	margin-left: 55%;
+	color: #ffffff;
+ }
+ header {
+	width: 100%;
+	padding: 10px 0.5% 0px 0.5%;
+	background: transparent;
+	float: left;
+	position: fixed;
+ }
+ header #logo {
+	color: rgb(65, 65, 65);
+	cursor: pointer;
+ }
+ header #logo span{
+	font-size: 3em;
+	line-height: 45px;
+	text-align: center;
+
+ }
+ #about
+ {
+	font-size: 1em;
+	line-height: 40px;
+	margin-bottom: 10px;
+	text-align: right;
+	margin-right: 5%;
+ }
+ #about > a{color: #333333}
+ #about > a:not(:last-child) {margin-right: 5%;}
+ #about > a:hover {
+	 color: #b0b0b0;
+	 text-decoration: underline;
+ }
+
+.fixed
+{
+	z-index: 5000;
+	background-color: #333333;
+	border-bottom: 1px solid silver;
+}
+header.fixed #logo
+{
+	color: #343434;
+}
+.fixed #about > a {color: #343434}
+.fixed #about > a:hover {color: #7c7c7c}
+
