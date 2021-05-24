@@ -115,6 +115,7 @@ body, html
 	width: 100%;
 	background-size: cover;
 	background-image: url(../images/water2.png);
+	background-color: #fff;
 	color: rgb(255, 255, 255);
 	font-size:  2em;
 	height: 50%;
