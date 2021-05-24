@@ -203,7 +203,7 @@ body, html
 	text-align: right;
 	margin-right: 5%;
  }
- #about > a{color: #333333}
+ #about > a{color: #66ff66}
  #about > a:not(:last-child) {margin-right: 5%;}
  #about > a:hover {
 	 color: #b0b0b0;
@@ -213,13 +213,13 @@ body, html
 .fixed
 {
 	z-index: 5000;
-	background-color: #333333;
+	background-color: #66ff66;
 	border-bottom: 1px solid silver;
 }
 header.fixed #logo
 {
-	color: #343434;
+	color: #66ff66;
 }
-.fixed #about > a {color: #343434}
+.fixed #about > a {color: #66ff66}
 .fixed #about > a:hover {color: #7c7c7c}
 
